@@ -73,11 +73,12 @@ if (time > 20 && time < 24)
 // Day7, individual task1 Ieva P.
 
 // Task 2 Ieva P. practice
-int day = 10;
+int day;
 
 if (day <= 0 && day > 7)
 {
-    Console.ReadLine("Write the day number:");
+    Console.WriteLine($"Write the day number:{day}");
+    Console.ReadLine();
 }
 else
 {
